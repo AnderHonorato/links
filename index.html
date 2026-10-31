@@ -7,6 +7,15 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+.novidades-sites-github{margin:28px auto 18px;max-width:510px;text-align:left;padding:22px;border:1px solid #aaadb733;border-radius:22px;background:linear-gradient(145deg,#818db312,transparent 70%);backdrop-filter:blur(5px)}
+.novidades-sites-cabecalho{display:flex;gap:13px;align-items:center;margin-bottom:15px}.novidades-estrela{display:grid;place-items:center;width:44px;height:44px;background:#819cd01c;color:#b8abed;border-radius:15px;font-size:26px;animation:novidades-orbitar 9s ease-in-out infinite}
+.novidades-sites-cabecalho small{letter-spacing:.14em;color:#b6b6c4;font-size:10px}.novidades-sites-cabecalho h2{margin:2px 0;font-size:18px;color:inherit}
+.novidades-sites-cartoes{display:grid;gap:8px}.novidades-sites-cartoes a{display:flex;align-items:center;gap:12px;padding:11px 13px;color:inherit!important;background:#ffffff09;border:1px solid #b8b4cc28;border-radius:14px;text-decoration:none!important;transition:transform .2s,border-color .2s}
+.novidades-sites-cartoes a:hover{transform:translateX(4px);border-color:#b3a5df}.novidades-sites-cartoes a>span:nth-child(2){flex:1}.novidades-sites-cartoes strong,.novidades-sites-cartoes small{display:block}.novidades-sites-cartoes strong{font-size:13px}.novidades-sites-cartoes small{font-size:11px;opacity:.7;margin-top:4px}.novidades-simbolo{font-size:23px;color:#b7a5ef}
+@keyframes novidades-orbitar{50%{transform:rotate(35deg) translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){.novidades-estrela,.novidades-sites-cartoes a{animation:none;transition:none}}
+</style>
 </head>
 <body>
 
@@ -167,7 +176,15 @@
       </div>
     </div>
 
-    <footer class="footer">Feito com ❤️ por Anderson Honorato · 2025</footer>
+    <section class="novidades-sites-github" aria-labelledby="novidades-titulo">
+  <div class="novidades-sites-cabecalho"><span class="novidades-estrela" aria-hidden="true">✳</span><div><small>DO MEU GITHUB</small><h2 id="novidades-titulo">Projetos para explorar</h2></div></div>
+  <div class="novidades-sites-cartoes">
+    <a href="https://anderhonorato.github.io/Astro-Flow/" target="_blank" rel="noopener noreferrer"><span class="novidades-simbolo" aria-hidden="true">◌</span><span><strong>Astro Flow</strong><small>Universo e conhecimento</small></span><span aria-hidden="true">↗</span></a>
+    <a href="https://anderhonorato.github.io/Site-de-Renda-Passiva/portal/" target="_blank" rel="noopener noreferrer"><span class="novidades-simbolo" aria-hidden="true">▦</span><span><strong>Ferramentas</strong><small>Utilidades digitais</small></span><span aria-hidden="true">↗</span></a>
+    <a href="https://anderhonorato.github.io/portfolio-do-ander/" target="_blank" rel="noopener noreferrer"><span class="novidades-simbolo" aria-hidden="true">✦</span><span><strong>Meu portfólio</strong><small>Todos os trabalhos</small></span><span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+<footer class="footer">Feito com ❤️ por Anderson Honorato · 2025</footer>
   </div>
 
   <!-- Tooltip global -->
